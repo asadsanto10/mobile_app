@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/profileAppName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="14dp"
+        android:text="CURD Appliation"
+        android:textAlignment="center"
+
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/idBtnBackLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextPersonName"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="25dp"
+        android:background="@color/teal_700"
+        android:text="Back to Login"
+        android:textAllCaps="false"
+        android:textColor="#FFFFFF"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileAppName"
+        android:layout_marginTop="163dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="18dp"
+        android:text="ID: 191015124"
+        android:textAlignment="viewStart"
+        android:textColor="#F6F2F2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileAppName"
+        android:layout_marginTop="137dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="18dp"
+        android:text="Md. Asaduzzaman Santo"
+        android:textAlignment="viewStart"
+        android:textColor="#F6F2F2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileAppName"
+        android:layout_marginTop="99dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="18dp"
+        android:text="ID: 191015117"
+        android:textAlignment="viewStart"
+        android:textColor="#F6F2F2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileAppName"
+        android:layout_marginTop="73dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:paddingLeft="18dp"
+        android:text="Md. Yousuf Hossain"
+        android:textAlignment="viewStart"
+        android:textColor="#F6F2F2"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profileAppName"
+        android:layout_marginTop="14dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        android:text="Group Member"
+        android:textAlignment="center"
+        android:textColor="#F6F2F2"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>
